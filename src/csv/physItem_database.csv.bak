@@ -1,0 +1,5 @@
+itemType,name,author,edition,publisherName,itemID,libLocation,copyNumber,dueDate,rentalEnabled,price
+Book,Harry Potter,JK Rowling,6th,Bloomsbury,987,York Stacy,19,null,true,-1.0
+CD,Thriller,Michael Jackson,7th,CBS,654,York Scott,19,null,true,-1.0
+Magazine,People,Rebecca Brown,8th,Dotdash Meredith,321,York Lanes,19,null,false,8.79
+Book,Titanic,Filson Young,5th,Nimbus,420,York Scott Main Floor,20,null,false,10.16

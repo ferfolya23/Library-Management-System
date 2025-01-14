@@ -1,0 +1,5 @@
+courseName,itemType,genre,name,author,edition,publisherName,courseEndDate
+EECS3461,Textbook,Educational,Biology,John Green,3rd,Pearson,03-24-2024 05:26:19
+EECS3311,Textbook,Science,Physics,Mark Smith,2nd,McGraw-Hill Education,04-08-2024 05:26:19
+EECS3101,Textbook,Computer Science,Introduction to Algorithms,Thomas Cormen,3rd,MIT Press,05-15-2024 05:26:19
+EECS33421,Textbook,Psychology,Introduction to Psychology,David G. Myers,12th,Worth Publishers,06-27-2024 05:26:19 

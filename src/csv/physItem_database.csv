@@ -1,0 +1,14 @@
+itemType,name,author,edition,publisherName,itemID,libLocation,copyNumber,dueDate,rentalEnabled,price
+Book,Harry Potter,JK Rowling,6th,Bloomsbury,123,York Stacy,20,null,true,-1.0
+Book,Life of Pie,Yann Martel,6th,The Golden Globe,456,York Stacy,20,null,true,-1.0
+CD,Thriller,Michael Jackson,7th,CBS,789,York Scott,20,null,true,-1.0
+CD,Abbey Road,The Beatles,7th,CBS,987,York Scott,20,null,true,-1.0
+Magazine,People,Rebecca Brown,8th,Dotdash Meredith,876,York Lanes,20,null,false,8.79
+DVD,The Beauty Of Nature,Pixar,4th,Earth World,543,York Lanes,20,null,true,-1.0
+Book,Titanic,Filson Young,5th,Nimbus,212,York Scott Main Floor,20,null,false,10.16
+DVD,Interstellar,Christopher Nolan,1st,Paramount,654,York Scott,20,null,true,-1.0
+Magazine,National Geographic,Various,2023,National Geographic,321,York Lanes,20,null,false,5.99
+CD,Dark Side of the Moon,Pink Floyd,1973,Harvest,432,York Stacy,20,null,true,-1.0
+Book,1984,George Orwell,1st,Secker and Warburg,345,York Scott Main Floor,20,null,true,-1.0
+DVD,The Godfather,Francis Ford Coppola,1972,Paramount,567,York Scott,20,null,true,-1.0
+Magazine,Wired,Various,June 2024,Condao Nast,678,York Lanes,20,null,false,6.5

@@ -1,0 +1,71 @@
+itemType,genre,name,author,edition,publisherName
+Textbook,Educational,Biology,John Green,3rd,Pearson
+Textbook,Science,Physics,Mark Smith,2nd,McGraw-Hill Education
+Textbook,Computer Science,Introduction to Algorithms,Thomas Cormen,3rd,MIT Press
+Textbook,Psychology,Introduction to Psychology,David G. Myers,12th,Worth Publishers
+Textbook,Mathematics,Calculus Early Transcendentals,James Stewart,8th,Cengage Learning
+Textbook,Philosophy,Philosophy: The Basics,Nigel Warburton,5th,Routledge
+Textbook,History,A People's History of the United States,Howard Zinn,Revised Edition,Harper Perennial
+Textbook,Biology,Molecular Biology of the Cell,Bruce Alberts,6th,Garland Science
+Textbook,Chemistry,Chemistry: The Central Science,Bruce E. Bursten,14th,Pearson
+Textbook,Psychology,Psychology and Life,Richard J. Gerrig,20th,Pearson
+Textbook,Literature,The Norton Anthology of English Literature,Stephen Greenblatt,10th,W. W. Norton & Company
+Textbook,Computer Science,Database System Concepts,Abraham Silberschatz,6th,McGraw-Hill
+Textbook,Self Improvement,Yoga,Robert Smirth,2nd,Neilson
+RegBook,Horror,The Shining,William Williams,1st,Vintage
+Textbook,Educational,Chemistry,Mary Johnson,4th,Academic Press
+Textbook,Self Improvement,Mindfulness,Sarah Lee,1st,HarperCollins
+RegBook,Fantasy,The Hobbit,J.R.R. Tolkien,2nd,Allen & Unwin
+RegBook,Romance,Pride and Prejudice,Jane Austen,3rd,Penguin Classics
+RegBook,Thriller,The Girl on the Train,Paula Hawkins,2nd,Riverhead Books
+RegBook,Mystery,The Da Vinci Code,Dan Brown,1st,Doubleday
+Textbook,Mathematics,Linear Algebra and Its Applications,David C. Lay,5th,Pearson
+RegBook,Science Fiction,Dune,Frank Herbert,4th,Chilton Books
+Textbook,Art,History of Art,Ernst Gombrich,16th,Phaidon Press
+RegBook,Drama,Hamlet,William Shakespeare,1st,Folio Society
+Textbook,Economics,Macroeconomics,Gregory Mankiw,9th,Cengage Learning
+RegBook,Science,The Elegant Universe,Brian Greene,1st,Vintage Books
+Textbook,Literature,The Norton Anthology of English Literature,M.H. Abrams,10th,Norton
+RegBook,Action and Adventure,The Adventures of Sherlock Holmes,Arthur Conan Doyle,1st,Signet Classics
+Textbook,Business,Principles of Management,Stephen P. Robbins,15th,Pearson
+RegBook,Historical Fiction,The Pillars of the Earth,Ken Follett,25th,William Morrow
+Textbook,Health,Fundamentals of Anatomy and Physiology,Frederic H. Martini,11th,Pearson
+RegBook,Biography,Steve Jobs,Walter Isaacson,1st,Simon & Schuster
+Textbook,Engineering,Introduction to Electrical Engineering,Richard C. Dorf,1st,Wiley
+RegBook,Travel,The Alchemist,Paulo Coelho,25th,HarperOne
+Textbook,Educational,Physics II,Michael Johnson,3rd,HarperCollins
+Textbook,Self Improvement,Positive Thinking,Lisa Brown,1st,Simon & Schuster
+RegBook,Horror,Dracula,Bram Stoker,1st,Penguin Classics
+Textbook,Educational,Anatomy,Susan White,2nd,Oxford University Press
+Textbook,Self Improvement,Meditation Guide,James Turner,4th,McGraw-Hill Education
+RegBook,Fantasy,The Lord of the Rings,J.R.R. Tolkien,1st,Houghton Mifflin Harcourt
+Textbook,History,The Rise and Fall of the Roman Empire,Edward Gibbon,6th,Vintage
+RegBook,Romance,Romeo and Juliet,William Shakespeare,1st,Folio Society
+Textbook,Science,Astronomy,Timothy Johnson,3rd,Pearson
+RegBook,Thriller,Gone Girl,Gillian Flynn,1st,Broadway Books
+Textbook,Computer Science,Database Systems,Thomas Connolly,7th,Pearson
+RegBook,Mystery,The Hound of the Baskervilles,Arthur Conan Doyle,4th,Penguin Classics
+Textbook,Psychology,Social Psychology,David Myers,9th,Worth Publishers
+Textbook,Mathematics,Probability and Statistics,John Smith,8th,Cengage Learning
+RegBook,Science Fiction,1984,George Orwell,1st,Penguin Classics
+Textbook,Art,Modern Art,John Doe,2nd,Thames & Hudson
+Textbook,Economics,Microeconomics,Paul Krugman,5th,Worth Publishers
+RegBook,Science,Cosmos,Carl Sagan,1st,Ballantine Books
+Textbook,Literature,Shakespearean Plays,William Shakespeare,Complete,Norton
+RegBook,Action and Adventure,Treasure Island,Robert Louis Stevenson,1st,Penguin Classics
+Textbook,Business,Financial Management,Eugene F. Brigham,15th,Cengage Learning
+RegBook,Historical Fiction,To Kill a Mockingbird,Harper Lee,1st,Harper
+Textbook,Health,Nutrition and Wellness,Judith E. Brown,13th,Cengage Learning
+Textbook,Engineering,Mechanical Engineering,John Smith,4th,McGraw-Hill Education
+RegBook,Travel,Into the Wild,Jon Krakauer,1st,Anchor Books
+Textbook,Educational,Environmental Science,Daniel Chiras,12th,Jones & Bartlett Learning
+Textbook,Self Improvement,Emotional Intelligence,Daniel Goleman,10th,Bantam
+RegBook,Horror,IT,Stephen King,1st,Scribner
+Textbook,Educational,Geology,Stanley Chernicoff,4th,Wiley
+Textbook,Self Improvement,Leadership,John C. Maxwell,7th,HarperCollins Leadership
+RegBook,Fantasy,A Game of Thrones,George R.R. Martin,1st,Bantam Books
+Textbook,History,A People's History of the United States,Howard Zinn,3rd,Harper Perennial Modern Classics
+RegBook,Romance,Outlander,Diana Gabaldon,1st,Dell
+Textbook,Science,Chemistry: The Central Science,Theodore L. Brown,15th,Pearson
+RegBook,Thriller,The Silence of the Lambs,Thomas Harris,1st,St. Martin's Paperbacks
+Textbook,Computer Science,Operating System Concepts,Abraham Sil

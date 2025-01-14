@@ -1,0 +1,8 @@
+courseName,itemType,genre,name,author,edition,publisherName,courseEndDate
+EECS33421,Textbook,Psychology,Introduction to Psychology,David G. Myers,12th,Worth Publishers,03-24-2024 05:26:19
+MATH1011,Textbook,Mathematics,Calculus Early Transcendentals,James Stewart,8th,Cengage Learning,03-24-2024 05:26:19
+PHIL1001,Textbook,Philosophy,Philosophy: The Basics,Nigel Warburton,5th,Routledge,03-24-2024 05:26:19
+HIST2045,Textbook,History,A People's History of the United States,Howard Zinn,Revised Edition,Harper Perennial,03-24-2024 05:26:19
+BIO1500,Textbook,Biology,Molecular Biology of the Cell,Bruce Alberts,6th,Garland Science,03-24-2024 05:26:19
+PSYCH1101,Textbook,Psychology,Psychology and Life,Richard J. Gerrig,20th,Pearson,03-24-2024 05:26:19
+COMPSCI401,Textbook,Computer Science,Database System Concepts,Abraham Silberschatz,6th,McGraw-Hill,03-24-2024 05:26:19

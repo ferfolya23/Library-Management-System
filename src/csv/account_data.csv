@@ -1,0 +1,8 @@
+email,password,accType,itemsBorrowed,overdueItems,accountLocked
+ferfolya23@yorku.ca,TPW,Student,0,0,false
+billy@gmail.com,BPW,Visitor,0,0,false
+jessica@yorku.ca,JPW,Faculty,0,0,false
+arthur@yorku.ca,APW,NonFaculty,0,0,false
+luke@yorku.ca,Luke_123,Faculty,0,0,false
+jane@yorku.com,JPW,Student,0,0,false
+matt@yorku.com,MPW,Faculty,0,0,false
