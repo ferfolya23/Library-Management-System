@@ -71,6 +71,7 @@ public class GUI_Menu extends JFrame implements ActionListener {
 			window.frame.setVisible(true);// setting the frame as visible
 			database.loadDigItems(database.digItemsDB, null);
 			database.loadPhysItems(database.physItemsDB, null);
+			database.loadCourses(database.coursesDB, null);
 			database.loadAccounts();
 		} catch (Exception e) {// catching any errors
 			e.printStackTrace();
