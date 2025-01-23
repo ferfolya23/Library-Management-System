@@ -1,2 +1,3 @@
-# EECS-3311-Deliverable2
-This project contains the implementation of the class diagram created in deliverable 1.
+The ***old build*** of the application can currently be run through ***GUI_Menu.java*** within the ***lms_gui package***. This build of the application is completed, though the GUI is finicky and riddled with bugs.
+
+The ***new and improved version*** of the application can be run through ***MainFrame.java*** located within the ***new_gui package***. While this version is currently incomplete, the reworked GUI will lead to a more polished and user friendly experience.
