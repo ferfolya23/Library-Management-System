@@ -2,17 +2,21 @@ package gui_new;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
+import lms_func.LibraryDatabase;
 
 public class MenuPanel extends JPanel {
-    public MenuPanel(MainFrame parentFrame) {
+	
+	LibraryDatabase database;
+	
+    public MenuPanel(MainFrame parentFrame) throws Exception {
         setLayout(null);
+        this.database = LibraryDatabase.getInstance();
         
         // Title label
-        JLabel lblMainTitle = new JLabel("YorkU Library Management");
+        JLabel lblMainTitle = new JLabel("YorkU Library Management", SwingConstants.CENTER);
         lblMainTitle.setForeground(new Color(255, 0, 0, 180));
-        lblMainTitle.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 39));
+        lblMainTitle.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 35));
         lblMainTitle.setBounds(200, 50, 500, 50);
         add(lblMainTitle);
 
