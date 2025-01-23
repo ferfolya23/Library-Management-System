@@ -127,28 +127,25 @@ public class SignupPanel extends JPanel {
         
         else if (verifiedByManager == true) {
         	isValidAccType = true;
+        }
         
-	        Account accountExists = database.iterateDB(txtEmail, txtPassword);
-	        
-	        //checks if account already exists
-	        if (accountExists != null) {
-	        	JOptionPane.showMessageDialog(null, messageAccountExists);
-	        }
-	        
-	        else {
-	        	
-	            // TODO - Add some validation method prior to account creation if not Visitor.
-	        	if ((isValid == true) && (isStrongPassword == true) && (isValidAccType == true)) {
-	        		database.accountGenerator(txtEmail, txtPassword, accType, 0, 0, false);
-	        		database.updateAccounts();
-	        		JOptionPane.showMessageDialog(null, regSuccess);
-	        	}
-	        	
-	        	else {
-	        		JOptionPane.showMessageDialog(null, "Error in creating account. Try Again");
-	        	}
+        Account accountExists = database.iterateDB(txtEmail, txtPassword);
+        
+        if (accountExists != null) {
+        	JOptionPane.showMessageDialog(null, messageAccountExists);
+        }
+        
+        else {
+        	// TODO - Add some validation method prior to account creation if not Visitor.
+        	if ((isValid == true) && (isStrongPassword == true) && (isValidAccType == true)) {
+        		database.accountGenerator(txtEmail, txtPassword, accType, 0, 0, false);
+        		database.updateAccounts();
+        		JOptionPane.showMessageDialog(null, regSuccess);
+        		}
+        	else {
+        		JOptionPane.showMessageDialog(null, "Error in creating account. Try Again!");
+        		}
 	    		
 	        }
-        }
-	}
+       }
 }
