@@ -84,23 +84,22 @@ public class HomePagePanel extends JPanel {
             bookPanel.setMaximumSize(new Dimension(730, 80));
 
             // Book info
-
-            SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
-            //Date date = formatter.parse(book.getDueDate().toString());
             DateFormat df = new SimpleDateFormat("E, d MMMM, y.");
             String dueDate = df.format(book.dueDate);
-
             String bookInfo = String.format("<html><b>Name:</b> %s<br><b>Author:</b> %s<br><b>Due Date:</b> %s</html>",
                     book.getName(), book.getAuthor(), dueDate);
             JLabel lblBookInfo = new JLabel(bookInfo);
 
-            // Fee if overdue
+            // Fee + makes text red if overdue
             JLabel lblFee = new JLabel();
-
             if (book.calculateFine() > 0) {
                 lblFee.setText(String.format("Overdue Fee: $%.2f", book.calculateFine()));
                 lblFee.setForeground(Color.RED);
+                lblBookInfo.setForeground(Color.RED);
             }
+            //if (warning != null) {
+            //    JOptionPane.showMessageDialog(this, warning);
+            //}
 
             // Return button
             JButton btnReturn = new JButton("Return");
@@ -112,11 +111,9 @@ public class HomePagePanel extends JPanel {
                 }
             });
 
-            // Adding components to the panel
             bookPanel.add(lblBookInfo, BorderLayout.CENTER);
             bookPanel.add(lblFee, BorderLayout.EAST);
             bookPanel.add(btnReturn, BorderLayout.SOUTH);
-
             booksPanel.add(bookPanel);
         }
 
@@ -124,8 +121,17 @@ public class HomePagePanel extends JPanel {
         booksPanel.repaint();
     }
 
+    void popUpGenerator() {
+        for (PhysicalItem book : checkedOutBooks) {
+            String warning = book.warningString(user);
+            if (warning != null) {
+                JOptionPane.showMessageDialog(this, warning);
+            }
+        }
+    }
+
     private void returnBook(PhysicalItem book) throws Exception {
-        //book.returnCopy(user);
+        book.returnCopy(user);
         JOptionPane.showMessageDialog(this, "You have returned: " + book.getName());
         checkedOutBooks.remove(book);
         populateCheckedOutBooks();

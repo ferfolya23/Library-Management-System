@@ -81,7 +81,7 @@ public class LoginPanel extends JPanel {
     		String accPass = registeredAccount.getPass();
     		String accType = registeredAccount.getAccType();
     		
-        	JOptionPane.showMessageDialog(null, "Login successful!");
+        	//JOptionPane.showMessageDialog(null, "Login successful!");
         	
         	if (accType == "Student") {
         		//mainFrame.switchPanel("Student");
@@ -99,8 +99,12 @@ public class LoginPanel extends JPanel {
         		//mainFrame.switchPanel("Visitor");
         	}
 
-            mainFrame.mainPanel.add(new HomePagePanel(registeredAccount, registeredAccount.getPhysicalItemList()), "Home Page");
+            HomePagePanel homePage = new HomePagePanel(registeredAccount, registeredAccount.getPhysicalItemList());
+
+            mainFrame.mainPanel.add(homePage, "Home Page");
             mainFrame.switchPanel("Home Page");
+
+            homePage.popUpGenerator();
     	}
         
         else {
