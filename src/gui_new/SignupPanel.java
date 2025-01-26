@@ -5,12 +5,8 @@ import javax.swing.*;
 import lms_func.Account;
 import lms_func.LibraryDatabase;
 import lms_func.LibraryHomePage;
-import lms_gui.GUI_SignUP_Login;
-import lms_gui.GUI_SignUp;
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.Vector;
 
 public class SignupPanel extends JPanel {

@@ -8,7 +8,7 @@ import java.awt.*;
 public class MainFrame extends JFrame {
 	private static LibraryDatabase database;
     private CardLayout cardLayout = new CardLayout();
-    private JPanel mainPanel = new JPanel(cardLayout);
+    JPanel mainPanel = new JPanel(cardLayout);
 
     public MainFrame() throws Exception {
 		database = LibraryDatabase.getInstance();

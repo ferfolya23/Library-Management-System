@@ -98,6 +98,9 @@ public class LoginPanel extends JPanel {
         	else {
         		//mainFrame.switchPanel("Visitor");
         	}
+
+            mainFrame.mainPanel.add(new HomePagePanel(registeredAccount, registeredAccount.getPhysicalItemList()), "Home Page");
+            mainFrame.switchPanel("Home Page");
     	}
         
         else {
