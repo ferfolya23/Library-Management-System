@@ -182,15 +182,15 @@ public abstract class PhysicalItem extends Item {
 		return overdueFee;
 	}
 
-	public String warningString(Account user) throws Exception{
+	public String warningString(Account user) {
 		
 		Date curr = new Date();
-		database = LibraryDatabase.getInstance();
+		//database = LibraryDatabase.getInstance();
 		long timeDiff = dueDate.getTime() - curr.getTime(); // gets the time in miliseconds
 		long timeDiffHrs = timeDiff/(60*60*1000); // converts to hours
 		long timeDiffDays = timeDiff/(24*60*60*1000); // converts to days
 
-		String output = "";
+		String output = null;
 		
 		//copyNumber = -3 indicates that this copy is now lost.
 		if (this.getCopyNumber() == -3) {
@@ -210,11 +210,13 @@ public abstract class PhysicalItem extends Item {
 			if (timeDiffDays <= -15) {
 				//copyNumber = -3 indicates that this copy is now lost.
 				this.setCopyNumber(-3);
-				
-				String[] emailSplitter = user.getEmail().split("@", 2);
-				String splitEmail = database.path + emailSplitter[0] + "_physItem_data.csv";
-			    database.updatePhysItems(user.getPhysicalItemList(), splitEmail);
-			    database.updateAccounts();
+
+				//Below updates database to keep track of what books are lost. May change in future.
+
+				//String[] emailSplitter = user.getEmail().split("@", 2);
+				//String splitEmail = database.path + emailSplitter[0] + "_physItem_data.csv";
+			    //database.updatePhysItems(user.getPhysicalItemList(), splitEmail);
+			    //database.updateAccounts();
 				
 				return output;
 			}
@@ -222,11 +224,13 @@ public abstract class PhysicalItem extends Item {
 			if (user.getItemsBorrowed() >= 3) {
 				user.setAccountLocked(true);
 			}
-			
-			String[] emailSplitter = user.getEmail().split("@", 2);
-			String splitEmail = database.path + emailSplitter[0] + "_physItem_data.csv";
-		    database.updatePhysItems(user.getPhysicalItemList(), splitEmail);
-		    database.updateAccounts();
+
+			//Below updates database to keep track of whether user is locked. May change in future.
+
+			//String[] emailSplitter = user.getEmail().split("@", 2);
+			//String splitEmail = database.path + emailSplitter[0] + "_physItem_data.csv";
+		    //database.updatePhysItems(user.getPhysicalItemList(), splitEmail);
+		    //database.updateAccounts();
 			output = String.format("The book: %s OVERDUE PLEASE RETURN IT", this.name);
 		}
 		
@@ -239,11 +243,11 @@ public abstract class PhysicalItem extends Item {
 		}
 		
 		else{  // makes it "days" if more than one day
-			output = String.format("%d Days till %s is due for return", timeDiffDays, this.name);
+			//output = String.format("%d Days till %s is due for return", timeDiffDays, this.name);
 		}
-		
-		return output;
-	}
+
+        return output;
+    }
 	
 	public String getItemType() {
 		return itemType;
